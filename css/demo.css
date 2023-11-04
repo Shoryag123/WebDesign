@@ -1,0 +1,112 @@
+.d {
+    color: darksalmon;
+    font-size: 46px;
+}
+
+.a {
+    margin-top: 31px;
+    margin-left: 19px;
+    font-size: 37px;
+}
+
+.b {
+    border: 2px solid black;
+    width: 280px;
+    height: 430px;
+    margin: 8px;
+    margin-top: 1px;
+    float: left;
+    text-align: justify;
+    padding: 5px;
+}
+
+.c {
+    margin-top: 15px;
+    height: 248px;
+    width: 250px;
+    margin-left: 9px;
+}
+
+.e {
+    margin-top: 14px;
+    height: 232px;
+    width: 274px;
+    margin-left: 5px;
+}
+
+.f {
+    margin-top: 23px;
+    color: blue;
+}
+
+.g {
+    margin-top: 20px;
+    height: 230px;
+    width: 279px;
+    margin-left: 1px;
+}
+
+.btn {
+    margin-top: -2px;
+    height: 22px;
+    width: 155px;
+    border-radius: 13px;
+    color: black;
+    background: linear-gradient(to right, red, yellow)
+}
+
+.btn:hover {
+    background: linear-gradient(to right, blue, green);
+    transition: 3s;
+}
+
+.btn1 {
+    margin-top: -10px;
+    height: 22px;
+    width: 155px;
+    border-radius: 13px;
+    color: black;
+    background: linear-gradient(to right, red, yellow)
+}
+
+.btn1:hover {
+    background: linear-gradient(to right, blue, green);
+    transition: 3s;
+}
+
+.btn2 {
+    margin-top: 1px;
+    height: 22px;
+    width: 155px;
+    border-radius: 13px;
+    color: black;
+    background: linear-gradient(to right, red, yellow)
+}
+
+.btn2:hover {
+    background: linear-gradient(to right, blue, green);
+    transition: 3s;
+}
+
+.x {
+    text-align: justify;
+    color: #0f5404;
+    font-size: 27px;
+}
+
+.y {
+    border: 2px solid black;
+    width: 280px;
+    height: 430px;
+    margin: 8px;
+    margin-top: 1px;
+    float: left;
+    text-align: justify;
+    padding: 5px;
+}
+
+.z {
+    text-align: center;
+    font-size: 27px;
+    color: #0f5404;
+}

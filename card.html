@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <style>
+        .sec-1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .box {
+            position: relative;
+            cursor: pointer;
+            width: 265px;
+            height: 245px;
+            margin: 3px 5px;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 1px 2px rgb(173, 173, 173);
+            background-color: rgb(243, 240, 240);
+        }
+
+        .box img {
+            width: 100%;
+            border-radius: 15px;
+            border: 1px solid rgb(204, 203, 203);
+
+        }
+
+        .white {
+            position: absolute;
+            bottom: 3px;
+            align-items: center;
+            border-radius: 0 0 15px 15px;
+            background-color: white;
+            width: 100%;
+            height: 25%;
+
+        }
+
+        .space {
+            margin: 60px 120px;
+        }
+
+        .white p {
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 19px;
+            color: rgb(56, 56, 56);
+            letter-spacing: 0.7px;
+        }
+
+        .sec-2 h2 {
+            font-size: 38px;
+            font-weight: lighter;
+            margin-bottom: 10px;
+        }
+
+        .sec-2 div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .sec-2 h6 {
+            margin: 0;
+            font-size: 17px;
+            font-weight: lighter;
+            color: rgb(99, 98, 98);
+        }
+
+        .fa-caret-right,
+        .sec-2 span {
+            color: rgb(248, 117, 117);
+        }
+
+        .box-1 {
+            width: 270px;
+            height: 300px;
+            overflow: hidden;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .box-1 div {
+            position: absolute;
+            background: linear-gradient(transparent, red);
+            width: 100%;
+            height: 25%;
+            display: flex;
+            align-items: flex-end;
+            bottom: 0;
+        }
+
+        .box-1 div span:first-child {
+            display: inline-block;
+            color: white;
+            padding-left: 15px;
+            font-size: 18px;
+            padding-bottom: 5px;
+        }
+
+        .box-1 i {
+            color: white;
+            padding-bottom: 15px;
+        }
+
+        .box-1 img {
+            width: 270px;
+            height: 300px;
+            object-fit: cover;
+            z-index: -1;
+            animation: blur 2s ease-out;
+        }
+
+        .sec-3 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            margin-bottom: 130px;
+        }
+
+        .h1 {
+            font-size: 35px;
+            font-weight: lighter;
+            text-align: center;
+            margin: 50px;
+            color: rgb(56, 56, 56);
+        }
+
+        .sec-4 {
+            display: grid;
+            justify-content: center;
+            grid-column-gap: 30px;
+            grid-template-columns: 340px 340px 340px;
+            grid-template-rows: auto;
+        }
+
+        .box-2 {
+            border: 1px solid rgb(235,233,233);
+            box-shadow: 0 1px 3px rgb(226,223,223);
+            width: 340px;
+            height: 60px;
+            overflow: hidden;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .box-2 div{
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .box-2 div span{
+            color: rgb(65,64,64);
+            font-size: 19px;
+            display: inline-block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="space">
+        <!-- order tiles -->
+        <div class="sec-1">
+            <div class="box">
+                <div class="white">
+                    <p>Order Food Online</p>
+                </div>
+                <img
+                    src="https://b.zmtcdn.com/webFrontend/64dffaa58ffa55a377cdf42b6a690e721585809275.png?fit=around|402:360&crop=402:360;*,*">
+            </div>
+            <div class="box">
+                <div class="white">
+                    <p>Go out for a meal</p>
+                </div>
+                <img
+                    src="https://b.zmtcdn.com/webFrontend/95f005332f5b9e71b9406828b63335331585809309.png?fit=around|402:360&crop=402:360;*,*">
+            </div>
+            <div class="box">
+                <div class="white">
+                    <p>Zomato Pro</p>
+                </div>
+                <img
+                    src="https://b.zmtcdn.com/webFrontend/b256d0dd8a29f9e0623ecaaea910534d1585809352.png?fit=around|402:360&crop=402:360;*,*">
+            </div>
+            <div class="box">
+                <div class="white">
+                    <p>Nightlife & Clubs</p>
+                </div>
+                <img
+                    src="https://b.zmtcdn.com/webFrontend/8ff4212b71b948ed5b6d2ce0d2bc99981594031410.png?fit=around|402:360&crop=402:360;*,*">
+            </div>
+        </div>
+        <div class="sec-2">
+            <h2>Collections</h2>
+            <div>
+                <h6>Explore curated lists of top restaurants, cafes, pubs, and bars in Delhi NCR, based on trends</h6>
+                <span>All collections in Delhi NCR &nbsp;<i class="fas fa-caret-right"></i></span>
+            </div>
+            <!-- collections -->
+            <div class="sec-3">
+                <div class="box-1">
+                    <div><span>Newly Opened <br> <span>17 Places <i class="fas fa-caret-right"></i></span> </span>
+                    </div>
+                    <img
+                        src="https://images.unsplash.com/photo-1577056922428-a511301a562d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80">
+                </div>
+                <div class="box-1">
+                    <div><span>Trending This Week <br> <span>30 Places &nbsp; <i class="fas fa-caret-right"></i></span>
+                        </span>
+                    </div>
+                    <img
+                        src="https://st.focusedcollection.com/18590116/i/650/focused_209046464-stock-photo-closeup-view-variety-food-served.jpg">
+                </div>
+                <div class="box-1">
+                    <div><span>Best of Delhi NCR <br> <span>157 Places &nbsp; <i class="fas fa-caret-right"></i></span>
+                        </span>
+                    </div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Nadi_Sri_Siva_Subramaniya_Temple.jpg">
+                </div>
+                <div class="box-1">
+                    <div><span>Great Cafes <br> <span>28 Places &nbsp; <i class="fas fa-caret-right"></i></span> </span>
+                    </div>
+                    <img
+                        src="https://content3.jdmagicbox.com/comp/def_content/lighting-dealers/shutterstock-315700163-lighting-dealers-1-xz4up.jpg?clr=443922">
+                </div>
+            </div><!--sec-3 end-->
+            <!-- address -->
+            <h1 class="h1">Popular localities in and around <strong> Delhi NCR</strong></h1>
+            <div class="sec-4">
+                <div class="box-2">
+                    <div>
+                        <span>402 - Swarna Jayanti Sadan Deluxe, Dr. B.D. Marg, New Delhi</span><i
+                            class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="box-2">
+                    <div><span>42, Meena Bagh, New Delhi</span><i class="fas fa-chevron-right"></i></div>
+                </div>
+                <div class="box-2">
+                    <div><span>4, Ferozeshah Road, New Delhi</span><i class="fas fa-chevron-right"></i></div>
+                </div>
+                <div class="box-2">
+                    <div><span>C-1/6, Pandara Park, New Delhi 110003</span><i class="fas fa-chevron-right"></i></div>
+                </div>
+                <div class="box-2">
+                    <div><span>Bunglow No.9, Teen Murti Lane, </span><i class="fas fa-chevron-right"></i></div>
+                </div>
+                <div class="box-2">
+                    <div><span>C-403, Swarna Jayanti Sadan,Dr. B.D. Marg</span><i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="box-2">
+                    <div><span>2, Lodhi Estate, New Delhi 110003</span><i class="fas fa-chevron-right"></i></div>
+                </div>
+                <div class="box-2">
+                    <div><span>AB 89 Shahjahan Road New Delhi 110011</span><i class="fas fa-chevron-right"></i></div>
+                </div>
+                <div class="box-2">
+                    <div><span>201, Brahmaputra Apartment, BD Marg, New Delhi. 110001</span><i
+                            class="fas fa-chevron-right"></i></div>
+                </div>
+                <div class="box-2">
+                    <div><span>2, Jantar Mantar Road, New Delhi 110011</span><i class="fas fa-chevron-right"></i></div>
+                </div>
+                <div class="box-2">
+                    <div><span>C-404, Swarna Jayanti Sadan, Dr. B.D. Marg,</span><i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="box-2">
+                    <div><span>11, Safdarjung Road, New Delhi 110011</span><i class="fas fa-chevron-right"></i></div>
+                </div>
+            </div>
+
+            <section class="sec-5">
+
+                <!-- form -->
+                <div class="flex contact">
+        
+                    <!-- form image -->
+                    <img src="https://b.zmtcdn.com/data/pro/5722d9e687511d79616bcab92470734e1596187147.png">
+        
+                    <!-- form details -->
+                    <div class="address">
+                        <h2>Get the Zomato App</h2>
+                        <p>We will send you a link, open it on your phone to download the app </p>
+                        <div class="flex radio">
+        
+                            <!-- E-mail  -->
+                            <div>
+                                <input type="radio" name="fill" id="email" checked>
+                                <label for="email">Email</label>
+                            </div>
+        
+                            <!-- phone -->
+                            <div>
+                                <input type="radio" name="fill" id="phone">
+                                <label for="phone">Phone</label>
+                            </div>
+                        </div>
+                        <div class="flex email">
+                            <input class="input" type="text">
+        
+                            <!-- E-mail Placeholder -->
+                            <label for="" class="place">Email</label>
+                            <button>Share App Link</button>
+                        </div>
+                        <p class="download">Download app from</p>
+                        <div class="flex app">
+                            <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png">
+                            <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid;
+            height: 49px;
+            width: 700px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th {
+            background: blue;
+            color: white;
+        }
+
+        th:hover {
+            background: yellow;
+            color: black;
+            transition: 1s;
+        }
+
+        tr:hover {
+            background: grey;
+            transition: 1s;
+        }
+
+        td:hover {
+            background: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <br><br>
+    <center>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="6">TABLE DATA</th>
+                </tr>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Roll no.</th>
+                    <th>City</th>
+                    <th>Address</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ram</td>
+                    <td>192</td>
+                    <td>Morena</td>
+                    <td>Gopal Pura</td>
+                    <td>
+                        <a href=""><i class="fa-solid fa-eye" style="color: burlywood; font-size: 20px;"></i></a>&nbsp;
+                        <a href=""><i class="fa-regular fa-pen-to-square"
+                                style="color: greenyellow; font-size: 20px;"></i></a>&nbsp;
+                        <a href=""><i class="fa-solid fa-trash" style="color: violet; font-size: 20px;"></i></a>&nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Shorya</td>
+                    <td>101</td>
+                    <td>Morena</td>
+                    <td>Ganesh Pura</td>
+                    <td>
+                        <a href=""><i class="fa-solid fa-eye" style="color: burlywood; font-size: 20px;"></i></a>&nbsp;
+                        <a href=""><i class="fa-regular fa-pen-to-square"
+                                style="color: greenyellow; font-size: 20px;"></i></a>&nbsp;
+                        <a href=""><i class="fa-solid fa-trash" style="color: violet; font-size: 20px;"></i></a>&nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Yaspal</td>
+                    <td>231</td>
+                    <td>Gwalior</td>
+                    <td>Murar</td>
+                    <td>
+                        <a href=""><i class="fa-solid fa-eye" style="color: burlywood; font-size: 20px;"></i></a>&nbsp;
+                        <a href=""><i class="fa-regular fa-pen-to-square"
+                                style="color: greenyellow; font-size: 20px;"></i></a>&nbsp;
+                        <a href=""><i class="fa-solid fa-trash" style="color: violet; font-size: 20px;"></i></a>&nbsp;
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+    <br><br><br>
+    <form method="post">
+        <input type="text" value="PN INFOSYS" readonly>
+        <br><br>
+        Name:
+        <input type="text" name="n" placeholder="Enter your name" required>
+        <br><br>
+        Username:
+        <input type="text" name="u" placeholder="Enter your Username" required>
+        <br><br>
+        Email:
+        <input type="email" name="e" placeholder="Enter your email" required>
+        <br><br>
+        Password:
+        <input type="password" name="p" placeholder="Enter your password" required>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
+
+
+http://127.0.0.1:5501/table1.html?n=c&u=ndks&e=a%40gmal.com&p=s+
